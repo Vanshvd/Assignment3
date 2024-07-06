@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    color: green;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+div {
+background-color: yellow;
+}
+
+.container {
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    width: 90%;
+    max-width: 900px;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.correct {
+    background-color: blue;
+}
+
+.incorrect {
+}    background-color: red;
+
+
+#progress-container {
+    margin-top: 36px;
+}
